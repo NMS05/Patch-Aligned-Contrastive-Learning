@@ -26,8 +26,8 @@ Recently there is an increased research interest in **"Open Vocabulary Detection
 + **data/**
   - image_caption_data.py = a PyTorch Dataset class for MS-COCO that retuns a Image and its tokenized caption or noun-phrase (uses Spacy) as a tensor. 
   - utils.py = preprocesses image and caption for inference.
-+ **data/**
-  - model.py = contains the PACL model with a novel projection layer and the CLIP loss function.
++ **model/**
+  - pacl.py = contains the PACL model with a novel projection layer and the CLIP loss function.
 + train_pacl.py = train the PACL model and save weights.
 + pacl_inference.py = perform single image inference using the pre-trained PACL model.
 
